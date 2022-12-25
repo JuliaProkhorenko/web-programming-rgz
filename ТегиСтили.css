@@ -1,0 +1,178 @@
+body{
+    box-sizing: border-box;
+    margin: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(220, 251, 255);
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(135, 239, 255);
+    height: 81px;
+    line-height: 80px;
+    padding-left: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-line-title{
+  color:  rgb(162, 255, 250);
+  -webkit-text-stroke: 1px #000;
+  font-size:30px;  
+  }
+.footer {
+    background-color: rgb(135, 239, 255);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: rgb(162, 255, 250);
+    line-height:  30px;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 20px;  
+    height: 30px;
+    -webkit-text-stroke: 1px #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.info{
+    color:  rgb(0, 0, 0);
+    font-size: 20px; 
+    height: 80px;
+    line-height: 80px;
+    padding-left: 30px;
+}
+.text{
+    color:  rgb(0, 0, 0);
+    font-size: 20px; 
+    height: 80px;
+    line-height: 80px;
+    padding-left: 30px;
+}
+.dopinfa{
+    color:  rgb(0, 0, 0);
+    font-size: 20px; 
+    height: 80px;
+    line-height: 80px;
+    padding-left: 30px;
+}
+.topinfa{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img{
+    padding: 20px;
+    max-width: 160px;
+    height: 240px;
+    padding: 30px;
+    border: 5px solid black;
+    border-left: none;
+    border-top: none;
+}
+.content{
+    width: 950px; 
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 225, 255);
+}
+.name{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 28px;
+    width: 500px; 
+    text-align: center;
+    color: rgb(135, 239, 255);
+    background-color: black;
+    padding: 20px;
+}
+.position{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-top: 60px;
+    padding-left: 25px;
+    font-size: 20px;
+    text-align: center;
+    width: 500px; 
+}
+.border{
+    border: 5px solid rgb(0, 0, 0);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.contact1{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    border: 5px solid black;
+    border-left: none;
+    border-top: none;
+}
+.dopinfa {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    width: 190px; 
+    text-align: center;
+    color: rgb(135, 239, 255);
+    background-color: black;  
+}
+.infowork{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-right: 40px;
+    font-size: 20px;
+    text-align: left;
+    width: 500px; 
+}
+.tegi{
+    font-size: 25px;
+    color:#000;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(135, 235, 255);
+}
+.tegi1{
+    font-size: 18px;
+    color:#000;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.h{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.css{
+    font-size: 25px;
+    color:#000;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(135, 235, 255);
+}
+.css1{
+    font-size: 18px;
+    color:#000;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.menu a{
+    margin:0 auto;
+    background-color: rgb(34, 225, 255);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  .menu {
+    padding-right: 40px;
+    word-spacing: 1em;
+  }
+  a:hover{
+    background-color: rgb(226, 255, 245);
+    color: rgb(34, 225, 255);
+  }
